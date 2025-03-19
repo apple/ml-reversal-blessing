@@ -1,0 +1,25 @@
+task: multiply
+dataset_path: json
+dataset_name: null
+dataset_kwargs:
+  data_files:
+    validation: /mnt/task_runtime/unique_multiplication_dataset/test1.json
+validation_split: validation
+output_type: multiple_choice
+doc_to_text: question
+doc_to_target: "{{choices.label.index(answerKey)}}"
+doc_to_choice: "{{choices.text}}"
+should_decontaminate: true
+doc_to_decontamination_query: question
+target_delimiter: ""
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+
+# put this in /miniconda/lib/python3.10/site-packages/lm_eval/tasks/multiplication/multiply.yaml

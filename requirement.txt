@@ -1,0 +1,7 @@
+sacrebleu
+evaluate
+sqlitedict
+accelerate
+peft
+scikit-learn
+more-itertools
