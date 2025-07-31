@@ -1,12 +1,12 @@
 <div align="center">
-  <h1>Reversal Blessing: Thinking Backward May Outpace Thinking Forward in Multi-choice Questions</h1>
+  <h1>What Makes the Preferred Thinking Direction for LLMs in Multiple-choice Questions?</h1>
 
   [![Paper](https://img.shields.io/badge/Paper-Arxiv%20Link-green)](https://arxiv.org/abs/2502.18435)
   [![Blog](https://img.shields.io/badge/Blog-Apple%20ML-blue)](https://machinelearning.apple.com)
   [![Model](https://img.shields.io/badge/Model-HuggingFace%20Hub-orange)](https://huggingface.co/apple/ml-reversal-blessing)
 </div>
 
-This software project accompanies the research paper, [Reversal Blessing: Thinking Backward May Outpace Thinking Forward in Multi-choice Questions](https://arxiv.org/abs/2502.18435).
+This software project accompanies the research paper, [What Makes the Preferred Thinking Direction for LLMs in Multiple-choice Questions?](https://arxiv.org/abs/2502.18435).
 
 <div align="center">
   <img src="figures/figure1.png" width="95%" alt="Main concept illustration">
@@ -15,7 +15,7 @@ This software project accompanies the research paper, [Reversal Blessing: Thinki
 ## 🌟 Highlights
 
 ### 💡 Key Concept
-**Reversal Blessing** demonstrates that right-to-left (R2L) factorization can outperform traditional left-to-right (L2R) approaches in specific MCQ reasoning tasks. We introduce "reverse thinking" - evaluating answer choices based on their likelihood of generating the question.
+Our paper demonstrates that right-to-left (R2L) factorization can outperform traditional left-to-right (L2R) approaches in specific MCQ reasoning tasks. We evaluate answer choices based on their likelihood of generating the question.
 
 <div align="center">
   <img src="figures/figure2.png" width="95%" alt="Comparison of forward vs. reverse thinking in MCQs">
@@ -101,7 +101,7 @@ If you find this work useful, please cite our paper:
 
 ```bibtex
 @article{zhang2025reversal,
-  title={Reversal Blessing: Thinking Backward May Outpace Thinking Forward in Multi-choice Questions},
+  title={What Makes the Preferred Thinking Direction for LLMs in Multiple-choice Questions?},
   author={Zhang, Yizhe and Bai, Richard and Gu, Zijin and Zhang, Ruixiang and Gu, Jiatao and Abbe, Emmanuel and Bengio, Samy and Jaitly, Navdeep},
   journal={arXiv preprint arXiv:2502.18435},
   year={2025},
